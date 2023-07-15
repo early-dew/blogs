@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNlcmEiLCJpZCI6IjY0YWQ5ZDIxYjQ3M2I2OWUzNTM3ZDQ0ZiIsImlhdCI6MTY4OTE3MDY0NH0.54YVLhmpR1DZhXUNoQv-6ldGbOycVo9fQiPWZ_3YdgY
+
+ {
+    "title": "New Middle F",
+    "author":"Fa Luuu",
+    "url": "www.news.eu",
+    "likes": 55
+   }
